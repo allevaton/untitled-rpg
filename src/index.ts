@@ -4,7 +4,6 @@ function printContents(
   fileName: string,
   callback?: (contents: string) => void
 ): void {
-
   fs.readFile(fileName, (err, data) => {
     if (err)
       throw err;
