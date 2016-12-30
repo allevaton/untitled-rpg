@@ -2,16 +2,14 @@ import * as fs from 'fs';
 
 function printContents(
   fileName: string,
-  callback?: (contents: string) => void
+  callback: (contents: string) => void
 ): void {
   fs.readFile(fileName, (err, data) => {
     if (err)
       throw err;
 
-    if (callback) {
-      const contents = data.toString();
-      callback(contents);
-    }
+    const contents = data.toString();
+    callback(contents);
   })
 }
 
