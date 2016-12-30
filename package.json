@@ -1,0 +1,17 @@
+{
+  "name": "untitled-rpg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:allevaton/untitled-rpg.git",
+    "type": "git"
+  },
+  "author": "Nick Allevato <nicholas.allevato@gmail.com>",
+  "license": "GPL",
+  "devDependencies": {
+    "@types/node": "^6.0.55",
+    "tslint": "^4.2.0",
+    "typescript": "latest"
+  },
+  "dependencies": {}
+}
